@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: black;
+
+        }
+        .first{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .bulb{
+            border: 2px solid yellow;
+            border-radius: 50%;
+             
+            width: 200px;
+            height: 200px;
+        }
+
+        .btn{
+
+            margin-top: 3%;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="first">
+        <div class="bulb"></div>
+        <button class="btn">Click to ON</button>
+    </div>
+
+    <script>
+
+        let bulb = document.querySelector(".bulb") 
+        let btn = document.querySelector(".btn")
+        let x =0;
+
+        btn.addEventListener("click",function(){
+
+            if(x==0){
+                
+                bulb.style.backgroundColor="yellow"
+                btn.innerHTML="Click to OFF"
+                x=1;
+                
+
+            }
+
+            else{
+
+                bulb.style.backgroundColor="transparent"
+                btn.innerHTML="Click to ON"
+                x=0;
+                
+            }
+
+
+            
+            
+
+
+
+        })
+
+
+
+
+    </script>
+    
+</body>
+</html>
