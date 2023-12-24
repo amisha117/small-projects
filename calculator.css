@@ -1,0 +1,46 @@
+#calculator{
+    
+
+    border: 2px solid rgba(128, 128, 128, 0.399);
+    width: 200px;
+    border-radius: 5px;
+
+   
+
+}
+
+.button{
+    font-weight: bold;
+    font-size: larger;
+    
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 4px
+    
+    
+    
+}
+
+.lastbutton{
+    font-weight: bold;
+    font-size: larger;
+
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    
+    
+
+}
+
+#display{
+
+    height: 30px;
+
+    width: 175px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
